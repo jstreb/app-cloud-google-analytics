@@ -1,0 +1,33 @@
+{
+    "description": "Please provide a description for this template.",
+    "version": "1.0",
+    "devices": [
+        "iPhone",
+        "Android"
+    ],
+    "platformConfig": {
+        "android": {
+            "nativeNavigation": true
+        },
+        "iOS": {
+            "nativeNavigation": true
+        }
+    },
+    "name": "ga-example",
+    "views": [
+        {
+            "navigationTitle": "view1",
+            "navigationIcon": "images/icons/view1.png",
+            "uri": "./html/view1.html",
+            "locales": "./txt/locales/en.txt",
+            "markup": "./txt/markup/view1.txt"
+        },
+        {
+            "navigationTitle": "view2",
+            "navigationIcon": "images/icons/view2.png",
+            "uri": "./html/view2.html",
+            "locales": "./txt/locales/en.txt",
+            "markup": "./txt/markup/view2.txt"
+        }
+    ]
+}
