@@ -26,10 +26,13 @@
     setContentOfPage();
   }
   
-  
+  /**
+   * Send a view event when this view gains focus.
+   */  
   function handleFocus() {
-    bc.ga.track( "api", "view", { "label": "what,is,this", "value": 50 } );
+    bc.ga._trackEvent( "mobile app", "view", document.title );
   }
+
   /**
    * Any event listeners we need for this view we setup here.  Note that the elements we are binding to are not yet 
    * created which is why we use the delegate syntax.

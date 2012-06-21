@@ -18,7 +18,8 @@
    * The Brightcove SDK will fire an "init" event after the document is ready, the device is ready to be interacted with and any
    * locale or markup files have been loaded and populated on the bc.templates object.
    */
-  $( bc ).bind( "init", initialize );
+  $( bc ).bind( "init", initialize )
+         .bind( "viewfocus", handleFocus );
   
   function initialize() {
     registerEventListeners();
@@ -32,6 +33,13 @@
   function registerEventListeners() {
     $( "#first-page-content" ).on( "tap", "li", transitionToSecondPage );
     $( "#pagetwo" ).on( "tap", ".back-button", bc.ui.backPage );
+  }
+  
+  /**
+   * Send a view event when this view gains focus.
+   */  
+  function handleFocus() {
+    bc.ga._trackEvent( "mobile app", "view", document.title );
   }
   
   /**
