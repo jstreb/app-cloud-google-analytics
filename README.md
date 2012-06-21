@@ -17,7 +17,7 @@ Because this is an application and not a website we are simply tracking events r
 
 ### Usage
 
-To trigger an event simply call the <code>bc.ga._trackEvent</code> method and pass in your values.  <code>The bc.ga._trackEvent</code> takes the following parameters:
+To trigger an event simply call the ``bc.ga._trackEvent`` method and pass in your values.  The ``bc.ga._trackEvent`` takes the following parameters:
 
 * Category - A string that is the category for this event.  This allows you to ogranize your events in the google analytics dashboard by category.
 * Action - A string that is the action for this event.  Similar to the category, the google analytics dashboard allows you organize your events by action.  This is typically what the event actually is, for example a play event, or a fullscreen event.
