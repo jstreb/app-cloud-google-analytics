@@ -53,3 +53,8 @@ A full example can be found in the example directory, but below is a quick examp
 		 	<p> This page will send a view event when it loads, and any time that it is navigated to.</p>
 		 </body>
 	</html>
+
+### Thanks and credits
+
+* Remy Sharp http://remysharp.com/2009/02/27/analytics-for-bookmarklets-injected-scripts/
+* Eric Hyndes
