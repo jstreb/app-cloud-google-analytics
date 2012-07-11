@@ -1,7 +1,7 @@
 ##Google Analytics for App Cloud
 
 ### Overview
-The google analytics app cloud plugin was created in order to support Google Analytics within in an App Cloud applicaiton.  Why you might ask is this necessary if Google Analytics is just JavaScript?  There are were two issues that we wanted to address:
+The google analytics app cloud plugin was created in order to support Google Analytics within an App Cloud application.  Why you might ask is this necessary if Google Analytics is just JavaScript?  There are were two issues that we wanted to address:
 
 1.  By default Google Analytics requires the support of cookies.  In a published application the files are served from the file system which does not support cookies.
 2.  We wanted to provide offline support so that we could track any events that may happen while not connected.
@@ -57,4 +57,4 @@ A full example can be found in the example directory, but below is a quick examp
 ### Thanks and credits
 
 * Remy Sharp http://remysharp.com/2009/02/27/analytics-for-bookmarklets-injected-scripts/
-* Eric Hyndes
+* Eric Hynds
