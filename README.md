@@ -6,7 +6,7 @@ The google analytics app cloud plugin was created in order to support Google Ana
 1.  By default Google Analytics requires the support of cookies.  In a published application the files are served from the file system which does not support cookies.
 2.  We wanted to provide offline support so that we could track any events that may happen while not connected.
 
-Because this is an application and not a website we are simply tracking events rather then page views.  Documentation for Google Analytics event tracking can be found [here.](https://developers.google.com/analytics/devguides/collection/gajs/eventTrackerGuide "Tracking documentation")
+Because this is an application and not a website we are simply tracking events rather than page views.  Documentation for Google Analytics event tracking can be found [here.](https://developers.google.com/analytics/devguides/collection/gajs/eventTrackerGuide "Tracking documentation")
 
 ### Installation
 
